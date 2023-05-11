@@ -4,7 +4,6 @@ volumes:
     grafana_data: {}
 
 services:
-  
   clickhouse-server:
     image: yandex/clickhouse-server
     container_name: clickhouse-server
